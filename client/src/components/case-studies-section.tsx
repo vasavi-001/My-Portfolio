@@ -49,7 +49,7 @@ export function CaseStudiesSection() {
       id: 6,
       emoji: "🚗",
       title: "InDrive UX Redesign - Pink Ride Safety Innovation",
-      image: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
+      image: "/assets/indrive-logo.jpg",
       description: "Comprehensive UX redesign focusing on pickup flexibility, driver rebooking, and innovative safety features for female passengers.",
       tags: ["Safety Innovation", "UX Redesign", "Mobility Tech"],
       tagColors: ["electric", "neon", "cyber"]
