@@ -13,7 +13,7 @@ export function CaseStudiesSection() {
       id: 2,
       emoji: "🎵",
       title: "Fixing Spotify's Algorithm for Gen Z Listeners",
-      image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
+      image: "/assets/spotify-logo.jpg",
       description: "Rethinking music recommendations by clustering vibe shifts rather than genre/artist similarity for rapid mood changes.",
       tags: ["Algorithm Design", "Gen Z Research", "A/B Testing"],
       tagColors: ["electric", "neon", "cyber"]
