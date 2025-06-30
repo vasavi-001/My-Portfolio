@@ -93,12 +93,11 @@ export function HeroSection() {
         </div>
         
         <div className="flex justify-center">
-          <div className="relative">
-            <div className="absolute -inset-4 bg-gradient-to-r from-electric via-neon to-cyber rounded-full blur opacity-75 animate-pulse-slow"></div>
+          <div className="avatar-gradient-border">
             <img 
               src="/assets/vasavi-photo.jpeg" 
               alt="Vasavi Prakash - Product Manager and Entrepreneur" 
-              className="relative w-80 h-80 object-cover rounded-full border-4 border-white/20"
+              className="w-80 h-80 object-cover rounded-full"
             />
           </div>
         </div>

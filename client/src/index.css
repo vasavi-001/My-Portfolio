@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
 :root {
   --background: hsl(222, 84%, 5%);
@@ -242,4 +242,44 @@
     0 0 10px hsl(324, 80%, 58%),
     0 0 15px hsl(324, 80%, 58%),
     0 0 20px hsl(324, 80%, 58%);
+}
+
+.avatar-gradient-border {
+  position: relative;
+  border-radius: 50%;
+  background: linear-gradient(45deg, hsl(324, 80%, 58%), hsl(269, 82%, 71%), hsl(324, 80%, 58%));
+  padding: 4px;
+  animation: spin 10s linear infinite;
+}
+
+.avatar-gradient-border::before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  right: -4px;
+  bottom: -4px;
+  background: linear-gradient(45deg, transparent, hsl(324, 80%, 58%), hsl(269, 82%, 71%), hsl(207, 90%, 54%), transparent);
+  border-radius: 50%;
+  z-index: -1;
+  animation: spin 8s linear infinite reverse;
+}
+
+.avatar-gradient-border::after {
+  content: '';
+  position: absolute;
+  top: -8px;
+  left: -8px;
+  right: -8px;
+  bottom: -8px;
+  background: linear-gradient(90deg, transparent, hsl(269, 82%, 71%), hsl(324, 80%, 58%), transparent);
+  border-radius: 50%;
+  z-index: -2;
+  animation: spin 12s linear infinite;
+  opacity: 0.7;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
