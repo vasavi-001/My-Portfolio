@@ -1,5 +1,7 @@
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger, DialogDescription } from "@/components/ui/dialog";
 import { ScrollArea } from "@/components/ui/scroll-area";
+import { Button } from "@/components/ui/button";
+import { ExternalLink } from "lucide-react";
 // We'll use the attached image directly in the path
 
 export function CaseStudiesSection() {
@@ -22,7 +24,8 @@ export function CaseStudiesSection() {
           "A/B Testing: Measured 40% improvement in task completion rates"
         ],
         results: "Users reported 40% higher productivity and 60% better work-life balance satisfaction",
-        learnings: "Emotional intelligence in productivity tools creates more sustainable work habits than rigid scheduling."
+        learnings: "Emotional intelligence in productivity tools creates more sustainable work habits than rigid scheduling.",
+        docLink: "https://docs.google.com/document/d/1example-moodflow-calendar-case-study"
       }
     },
     {
@@ -43,7 +46,8 @@ export function CaseStudiesSection() {
           "A/B Testing: Tested emotional vs traditional recommendations with 10K users"
         ],
         results: "45% increase in session length, 60% more saves, 30% higher user satisfaction scores",
-        learnings: "Emotional context beats demographic or genre-based targeting for music discovery."
+        learnings: "Emotional context beats demographic or genre-based targeting for music discovery.",
+        docLink: "https://docs.google.com/document/d/1example-spotify-algorithm-case-study"
       }
     },
     {
@@ -64,7 +68,8 @@ export function CaseStudiesSection() {
           "Success Metrics: 95% completion rate, 85% full-time conversion"
         ],
         results: "500+ active sprints, 10K+ students, ₹18,000 average stipend, 200+ partner startups",
-        learnings: "Micro-experiences create better learning outcomes than traditional long-term commitments."
+        learnings: "Micro-experiences create better learning outcomes than traditional long-term commitments.",
+        docLink: "https://docs.google.com/document/d/1example-sprintintern-case-study"
       }
     },
     {
@@ -85,7 +90,8 @@ export function CaseStudiesSection() {
           "Mental Health Integration: Added anxiety management and emergency support features"
         ],
         results: "98% safety satisfaction rate, 75% reduction in travel anxiety, 200+ verified female hosts",
-        learnings: "Safety isn't just features - it's about building trust through community and transparency."
+        learnings: "Safety isn't just features - it's about building trust through community and transparency.",
+        docLink: "https://docs.google.com/document/d/1example-safestay-travel-case-study"
       }
     },
 
@@ -107,7 +113,8 @@ export function CaseStudiesSection() {
           "Feature Innovation: Added real-time family sharing, panic buttons, and route verification"
         ],
         results: "67% increase in female user adoption, 45% reduction in ride cancellations, 90% safety satisfaction",
-        learnings: "Safety features shouldn't be add-ons - they should be core to the experience design."
+        learnings: "Safety features shouldn't be add-ons - they should be core to the experience design.",
+        docLink: "https://docs.google.com/document/d/1example-indrive-redesign-case-study"
       }
     }
   ];
@@ -167,6 +174,9 @@ export function CaseStudiesSection() {
                     <span className="text-3xl">{study.emoji}</span>
                     {study.title}
                   </DialogTitle>
+                  <DialogDescription className="text-gray-400">
+                    Detailed case study with methodology, results, and key insights
+                  </DialogDescription>
                 </DialogHeader>
                 
                 <ScrollArea className="h-[60vh] pr-4">
@@ -218,6 +228,16 @@ export function CaseStudiesSection() {
                           {tag}
                         </span>
                       ))}
+                    </div>
+                    
+                    <div className="pt-6 border-t border-white/10">
+                      <Button 
+                        onClick={() => window.open(study.fullContent?.docLink, '_blank')}
+                        className="w-full bg-gradient-to-r from-electric to-neon hover:from-electric/80 hover:to-neon/80 text-gray-900 font-semibold"
+                      >
+                        <ExternalLink className="w-4 h-4 mr-2" />
+                        View Full Documentation
+                      </Button>
                     </div>
                   </div>
                 </ScrollArea>
