@@ -249,7 +249,6 @@
   border-radius: 50%;
   background: linear-gradient(45deg, hsl(324, 80%, 58%), hsl(269, 82%, 71%), hsl(324, 80%, 58%));
   padding: 4px;
-  animation: spin 10s linear infinite;
 }
 
 .avatar-gradient-border::before {
@@ -262,7 +261,6 @@
   background: linear-gradient(45deg, transparent, hsl(324, 80%, 58%), hsl(269, 82%, 71%), hsl(207, 90%, 54%), transparent);
   border-radius: 50%;
   z-index: -1;
-  animation: spin 8s linear infinite reverse;
 }
 
 .avatar-gradient-border::after {
@@ -275,7 +273,6 @@
   background: linear-gradient(90deg, transparent, hsl(269, 82%, 71%), hsl(324, 80%, 58%), transparent);
   border-radius: 50%;
   z-index: -2;
-  animation: spin 12s linear infinite;
   opacity: 0.7;
 }
 
