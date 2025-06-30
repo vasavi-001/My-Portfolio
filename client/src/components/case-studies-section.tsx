@@ -3,8 +3,8 @@ export function CaseStudiesSection() {
     {
       id: 1,
       emoji: "📅",
-      title: "Redesigning Google Calendar for Emotion-Based Planning",
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
+      title: "Redesigning Google Calendar for Emotion-Based Planning", 
+      image: "/assets/moodflow-calendar.png",
       description: "Productivity tools assume humans operate like robots. I designed emotional context layers over traditional time blocks.",
       tags: ["UX Research", "AI Integration", "Behavioral Design"],
       tagColors: ["electric", "neon", "cyber"]
