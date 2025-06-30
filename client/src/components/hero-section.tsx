@@ -3,6 +3,8 @@ import { useMutation } from "@tanstack/react-query";
 import { apiRequest } from "@/lib/queryClient";
 import { useToast } from "@/hooks/use-toast";
 
+import WhatsApp_Image_2025_06_30_at_23_49_03 from "@assets/WhatsApp Image 2025-06-30 at 23.49.03.jpeg";
+
 export function HeroSection() {
   const { toast } = useToast();
 
@@ -41,7 +43,6 @@ export function HeroSection() {
       <div className="memphis-shape top-40 right-20 w-16 h-16 bg-sunshine rotate-45 animate-pulse-slow opacity-60"></div>
       <div className="memphis-shape bottom-40 left-20 w-12 h-12 bg-cyber rounded-full animate-bounce-gentle opacity-60"></div>
       <div className="memphis-shape top-60 left-1/2 w-8 h-32 bg-electric rounded-full animate-float opacity-60"></div>
-      
       <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
         <div className="text-center lg:text-left">
           <div className="mb-6">
@@ -89,7 +90,7 @@ export function HeroSection() {
           <div className="relative">
             <div className="absolute -inset-4 bg-gradient-to-r from-electric via-neon to-cyber rounded-full blur opacity-75 animate-pulse-slow"></div>
             <img 
-              src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400" 
+              src={WhatsApp_Image_2025_06_30_at_23_49_03} 
               alt="Professional tech woman with modern style" 
               className="relative w-80 h-80 object-cover rounded-full border-4 border-white/20"
             />
