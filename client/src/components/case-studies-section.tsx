@@ -31,7 +31,7 @@ export function CaseStudiesSection() {
       id: 4,
       emoji: "✈️",
       title: "Rebuilding Airbnb for Solo Women Travelers",
-      image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
+      image: "/assets/safestay-travel.png",
       description: "Safety-first travel platform with female-friendly hosts, local support networks, and emotional intent matching.",
       tags: ["Safety Design", "Persona Research", "Travel Tech"],
       tagColors: ["electric", "neon", "cyber"]
