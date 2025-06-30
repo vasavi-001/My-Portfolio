@@ -1,0 +1,119 @@
+workers access essential materials (Mirzora)
+
+And one that crafts personalized, hyperlocal travel experiences rooted in Indian wisdom (Modern Chanakya).
+
+I work best in fast-moving environments where I can lead user research, write product specs, manage tech teams, and bring v0 to life. My edge? I don’t just ship features — I ship clarity.
+
+📈 Experience Timeline
+🧭 Modern Chanakya – Co-founder & Product Owner (Current)
+
+Hyperlocal, AI-personalized itinerary planner for solo/Gen Z travelers
+
+Built mood-based discovery → calendar-blocked planning → hidden gem recommendations
+
+Leading product vision, content intelligence, and UX testing
+
+🏗️ Mirzora – Co-founder (E-commerce for Construction Workers)
+
+Built India’s first niche e-com MVP for daily wage laborers to access tools affordably
+
+Conducted field-level user research
+
+Launched MVP and tested with small-scale suppliers and local delivery agents
+
+🌐 RedDoorz – SDE Intern
+
+Built custom CMS (Webjinny) with multi-language support
+
+Improved ops efficiency by 40%, added dynamic form builder
+
+🎧 PinnacleWorks – Product Developer
+
+Developed real-time audio module for chatbot (SuperBot)
+
+Reduced latency by 30%, improved real-time processing accuracy
+
+📚 Featured Case Studies
+Case Study 1: Modern Chanakya – The Wisdom-Powered Travel App
+
+What: Built a hyper-personalized itinerary planner mixing mood, calendar, and experience tags
+
+Role: PM, UX, roadmap owner
+
+Edge: Combines cultural philosophy with AI-driven discovery
+
+Users: Gen Z, solo explorers
+
+Case Study 2: Mirzora – E-com for Construction Workers
+
+What: MVP built for underrepresented market
+
+Role: Co-founder, research + execution
+
+Insights: Built with 1-on-1 interviews, handled tech and GTM planning
+
+Case Study 3: Webjinny @ RedDoorz
+
+What: Internal CMS for 2-country content ops
+
+Features: Localization, form builder, multi-site architecture
+
+Outcome: 40% ops efficiency, 15% user growth on content rollout
+
+Optional Case Study 4: SaaSFlash Assessment
+
+Why: Rejection = portfolio win
+
+What: Created full IG script + visual story for SaaSFlash test
+
+Highlights: POV thinking, content productization, storytelling under pressure
+
+🛠 Projects Section
+Algorithm Visualizer — DSA and pathfinding demos
+
+InDrive UX Redesign — “Pink Ride” safety innovation + rental UX
+
+YOB Hackathon Project — Budgeting + marketplace for small founders
+
+✍️ Content/Writing Section (Optional)
+Add LinkedIn posts or articles like:
+
+“How we’re reimagining travel with Modern Chanakya”
+
+“Lessons from building for blue-collar users”
+
+“Why product work is about emotional clarity, not just specs”
+
+📞 Contact Section
+Simple form + links
+
+“Looking for smart collaborators, ambitious builders, or just someone to jam product ideas with — let’s talk!”
+
+🎨 Style Add-on
+Think: Vercel + Notion hybrid
+
+Fonts: Inter / Space Grotesk
+
+Light/dark toggle
+
+Responsive (mobile-first)
+
+Soft gradient highlights or grid layout
+
+Let me know if you want:
+
+Actual code for this in HTML/CSS/React
+
+Help filling out your case study pages
+
+Help building it in Notion/Framer/Webflow
+
+You’re ready to launch something 🔥 — let’s ship.
+
+
+
+
+
+
+
+

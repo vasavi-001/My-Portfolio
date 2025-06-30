@@ -1,0 +1,96 @@
+1. "Redesigning Google Calendar for Emotion-Based Planning"
+Problem: Productivity tools like GCal assume humans operate like robots. But our energy, mood, and emotional state fluctuate.
+Idea: A Google Calendar redesign that layers emotional context over traditional time blocks — like “creative,” “social,” “deep focus,” or “recovery.”
+What You’d Show:
+
+User interviews on how mood impacts productivity
+
+Proposed mood-tag calendar UX with soft AI suggestions
+
+A toggle for “drag & drop by energy” instead of time
+PM Value: Shows product intuition, UX sensitivity, and emotional intelligence — perfect for wellness/AI tools.
+
+🧠 2. "Fixing Spotify’s Algorithm for Gen Z Listeners"
+Problem: Spotify’s “Recommended” playlists feel repetitive or irrelevant over time — especially for users whose moods change rapidly.
+Solution: Rethink the music graph by clustering recommendations by vibe shifts (e.g., “energetic bounce” → “reflective low”) rather than genre/artist.
+What You’d Show:
+
+A case for behavior-driven clustering
+
+UX mockups of “Mood Maps” and swipe-to-shift-feed music
+
+A/B test plan comparing default Spotify UX vs your version
+PM Value: Great for consumer AI, recommendation engines, retention
+
+🌍 3. "Designing a Micro-Internship Platform for Tier-2/Tier-3 Students in India"
+Problem: Millions of students outside top colleges don’t get real-world projects or resume builders.
+Solution: A micro-internship platform that matches early learners with 2–3 week “sprints” from indie startups and solo founders.
+What You’d Show:
+
+Research on Indian job market inequality
+
+A lean MVP structure: onboarding, task scoping, founder-review system
+
+Monetization: freemium for startups, premium matchmaking
+PM Value: Social impact + marketplace dynamics + underserved market thinking
+
+🧳 4. "Rebuilding Airbnb for Solo Women Travelers"
+Problem: Safety and cultural context are major blockers for solo women travelers — not addressed well in the UX.
+Solution: Build a mode inside Airbnb that:
+
+Flags female-friendly hosts
+
+Curates hosts who offer local support/safe zones
+
+Adds "emotional intent" like “healing trip” or “work reset” to recommendations
+What You’d Show:
+
+Research on travel anxiety and social media support groups
+
+Persona-focused design
+
+UX flow with empathy-based filters
+PM Value: Productizing safety + experience curation, especially relevant for your Modern Chanakya travel theme
+
+✍️ 5. "Can We Turn Notion into a Daily Journal Therapist?"
+Problem: Notion is widely used for productivity but underused for emotional journaling. Most journaling apps feel too fluffy or too static.
+Solution: A Notion template and plugin system that:
+
+Nudges questions based on recent entries
+
+Flags thought patterns using sentiment AI
+
+Links emotion logs to productivity logs
+What You’d Show:
+
+A journaling workflow backed by behavioral psych
+
+Integration of GPT-style emotional insights
+
+Privacy & personalization features
+PM Value: Creative AI application + mental health awareness + system thinking
+
+Bonus Ideas (for future):
+“What if Duolingo taught negotiation instead of Spanish?”
+
+“Designing a Tinder for co-founders — team compatibility over pitch decks”
+
+“Rebuilding Instagram Reels for actual skill-learning”
+
+💡 Pro Tip: Treat these like real case studies — add them to your portfolio with:
+
+Problem → Insight → Hypothesis → MVP Plan → Wireframe (Figma) → Success Metric
+
+Even a half-built Notion/Miro + Loom walkthrough makes it feel legit
+
+Want help fleshing out one of these fully (like copy, UX mockups, or metrics)?
+We’ll make it portfolio gold.
+
+
+
+
+
+
+
+
+
