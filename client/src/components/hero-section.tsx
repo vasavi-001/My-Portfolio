@@ -38,8 +38,14 @@ export function HeroSection() {
 
   return (
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
+      {/* Futuristic Gradient Lines */}
+      <div className="gradient-line top-32 left-0 w-full animate-line-glow"></div>
+      <div className="gradient-line bottom-32 left-0 w-full animate-line-glow" style={{animationDelay: '1s'}}></div>
+      <div className="gradient-line-vertical left-20 top-0 h-full animate-line-glow" style={{animationDelay: '2s'}}></div>
+      <div className="gradient-line-vertical right-20 top-0 h-full animate-line-glow" style={{animationDelay: '0.5s'}}></div>
+      
       {/* Memphis Background Shapes */}
-      <div className="memphis-shape top-20 left-10 w-20 h-20 bg-neon rounded-full animate-float opacity-60"></div>
+      <div className="memphis-shape top-20 left-10 w-20 h-20 bg-neon rounded-full animate-float opacity-60 neon-glow"></div>
       <div className="memphis-shape top-40 right-20 w-16 h-16 bg-sunshine rotate-45 animate-pulse-slow opacity-60"></div>
       <div className="memphis-shape bottom-40 left-20 w-12 h-12 bg-cyber rounded-full animate-bounce-gentle opacity-60"></div>
       <div className="memphis-shape top-60 left-1/2 w-8 h-32 bg-electric rounded-full animate-float opacity-60"></div>
@@ -90,8 +96,8 @@ export function HeroSection() {
           <div className="relative">
             <div className="absolute -inset-4 bg-gradient-to-r from-electric via-neon to-cyber rounded-full blur opacity-75 animate-pulse-slow"></div>
             <img 
-              src={WhatsApp_Image_2025_06_30_at_23_49_03} 
-              alt="Professional tech woman with modern style" 
+              src="/assets/vasavi-photo.jpeg" 
+              alt="Vasavi Prakash - Product Manager and Entrepreneur" 
               className="relative w-80 h-80 object-cover rounded-full border-4 border-white/20"
             />
           </div>

@@ -36,15 +36,7 @@ export function CaseStudiesSection() {
       tags: ["Safety Design", "Persona Research", "Travel Tech"],
       tagColors: ["electric", "neon", "cyber"]
     },
-    {
-      id: 5,
-      emoji: "📝",
-      title: "Turning Notion into a Daily Journal Therapist",
-      image: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300",
-      description: "AI-powered journaling system that identifies thought patterns and provides personalized emotional insights.",
-      tags: ["Mental Health", "AI Psychology", "Privacy Design"],
-      tagColors: ["electric", "neon", "cyber"]
-    },
+
     {
       id: 6,
       emoji: "🚗",
@@ -57,8 +49,13 @@ export function CaseStudiesSection() {
   ];
 
   return (
-    <section id="projects" className="py-20 bg-gradient-to-r from-cyber/10 to-electric/10 relative">
-      <div className="memphis-shape top-10 left-10 w-32 h-8 bg-sunshine/40 rounded-full opacity-60"></div>
+    <section id="projects" className="py-20 bg-gradient-to-r from-cyber/10 to-electric/10 relative overflow-hidden">
+      {/* Futuristic gradient lines */}
+      <div className="gradient-line top-20 left-0 w-full animate-line-glow" style={{animationDelay: '3s'}}></div>
+      <div className="gradient-line-vertical left-16 top-0 h-full animate-line-glow" style={{animationDelay: '1s'}}></div>
+      <div className="gradient-line-vertical right-40 top-0 h-full animate-line-glow" style={{animationDelay: '2.5s'}}></div>
+      
+      <div className="memphis-shape top-10 left-10 w-32 h-8 bg-sunshine/40 rounded-full opacity-60 neon-glow"></div>
       
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
@@ -69,7 +66,7 @@ export function CaseStudiesSection() {
         
         <div className="grid lg:grid-cols-2 gap-8">
           {caseStudies.map((study) => (
-            <div key={study.id} className="bg-white/5 p-8 rounded-2xl border border-white/10 hover-lift">
+            <div key={study.id} className="bg-white/5 p-8 rounded-2xl border border-white/10 hover-lift futuristic-border">
               <div className="flex items-center gap-4 mb-6">
                 <span className="text-3xl emoji-bounce">{study.emoji}</span>
                 <h3 className="text-xl font-space font-semibold">{study.title}</h3>

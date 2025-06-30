@@ -1,7 +1,11 @@
 export function AboutSection() {
   return (
-    <section id="about" className="py-20 relative">
-      <div className="memphis-shape top-10 right-10 w-24 h-24 bg-sunshine/30 rotate-12 opacity-60"></div>
+    <section id="about" className="py-20 relative overflow-hidden">
+      {/* Futuristic gradient lines */}
+      <div className="gradient-line top-10 left-0 w-full animate-line-glow" style={{animationDelay: '2s'}}></div>
+      <div className="gradient-line-vertical right-32 top-0 h-full animate-line-glow" style={{animationDelay: '1.5s'}}></div>
+      
+      <div className="memphis-shape top-10 right-10 w-24 h-24 bg-sunshine/30 rotate-12 opacity-60 neon-glow"></div>
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-space font-bold mb-6">

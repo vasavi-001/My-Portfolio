@@ -1,7 +1,11 @@
 export function SkillsSection() {
   return (
-    <section className="py-20 bg-gradient-to-r from-electric/10 to-neon/10 relative">
-      <div className="memphis-shape top-20 left-10 w-16 h-16 bg-cyber/50 rounded-full opacity-60"></div>
+    <section className="py-20 bg-gradient-to-r from-electric/10 to-neon/10 relative overflow-hidden">
+      {/* Futuristic gradient lines */}
+      <div className="gradient-line top-32 left-0 w-full animate-line-glow" style={{animationDelay: '1.5s'}}></div>
+      <div className="gradient-line bottom-20 left-0 w-full animate-line-glow" style={{animationDelay: '3.5s'}}></div>
+      
+      <div className="memphis-shape top-20 left-10 w-16 h-16 bg-cyber/50 rounded-full opacity-60 neon-glow"></div>
       
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
