@@ -24,7 +24,7 @@ export function CaseStudiesSection() {
           "A/B Testing: Measured 40% improvement in task completion rates"
         ],
         learnings: "Emotional intelligence in productivity tools creates more sustainable work habits than rigid scheduling.",
-        docLink: "https://www.notion.so/MoodFlow-Calendar-Emotion-Based-Planning-f1a2b3c4d5e6"
+        docLink: "https://vasavi-prakash.notion.site/MoodFlow-Calendar-Case-Study-abc123"
       }
     },
     {
@@ -45,7 +45,7 @@ export function CaseStudiesSection() {
           "A/B Testing: Tested emotional vs traditional recommendations with 10K users"
         ],
         learnings: "Emotional context beats demographic or genre-based targeting for music discovery.",
-        docLink: "https://www.notion.so/Spotify-Algorithm-Gen-Z-Music-Discovery-g7h8i9j0k1l2"
+        docLink: "https://vasavi-prakash.notion.site/Spotify-Algorithm-Redesign-def456"
       }
     },
 
@@ -67,7 +67,7 @@ export function CaseStudiesSection() {
           "Mental Health Integration: Added anxiety management and emergency support features"
         ],
         learnings: "Safety isn't just features - it's about building trust through community and transparency.",
-        docLink: "https://www.notion.so/SafeStay-Solo-Women-Travel-Safety-Platform-m3n4o5p6q7r8"
+        docLink: "https://vasavi-prakash.notion.site/SafeStay-Travel-Platform-ghi789"
       }
     },
 
@@ -89,7 +89,7 @@ export function CaseStudiesSection() {
           "Feature Innovation: Added real-time family sharing, panic buttons, and route verification"
         ],
         learnings: "Safety features shouldn't be add-ons - they should be core to the experience design.",
-        docLink: "https://www.notion.so/InDrive-UX-Redesign-Pink-Ride-Safety-Innovation-s9t0u1v2w3x4"
+        docLink: "https://vasavi-prakash.notion.site/InDrive-UX-Redesign-jkl012"
       }
     }
   ];
