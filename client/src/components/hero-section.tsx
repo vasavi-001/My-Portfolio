@@ -8,25 +8,18 @@ import WhatsApp_Image_2025_06_30_at_23_49_03 from "@assets/WhatsApp Image 2025-0
 export function HeroSection() {
   const { toast } = useToast();
 
-  const downloadResumeMutation = useMutation({
-    mutationFn: () => apiRequest("GET", "/api/resume"),
-    onSuccess: () => {
-      toast({
-        title: "Resume Download",
-        description: "Resume download initiated! 📄",
-      });
-    },
-    onError: () => {
-      toast({
-        title: "Download Failed",
-        description: "Failed to download resume. Please try again.",
-        variant: "destructive",
-      });
-    },
-  });
-
   const handleDownloadResume = () => {
-    downloadResumeMutation.mutate();
+    const link = document.createElement('a');
+    link.href = '/assets/Vasavi_Resume.pdf';
+    link.download = 'Vasavi_Prakash_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    
+    toast({
+      title: "Resume Download",
+      description: "Resume download initiated! 📄",
+    });
   };
 
   const scrollToContact = () => {
@@ -76,16 +69,15 @@ export function HeroSection() {
           <div className="flex gap-4 justify-center lg:justify-start">
             <Button
               onClick={handleDownloadResume}
-              disabled={downloadResumeMutation.isPending}
-              className="bg-gradient-to-r from-electric to-neon px-8 py-4 rounded-xl font-semibold hover-lift flex items-center gap-2"
+              className="bg-gradient-to-r from-electric to-neon px-8 py-4 rounded-xl font-semibold hover-lift flex items-center gap-2 h-12"
             >
               <span className="emoji-bounce">📄</span> 
-              {downloadResumeMutation.isPending ? "Downloading..." : "Download Resume"}
+              Download Resume
             </Button>
             <Button
               variant="outline"
               onClick={scrollToContact}
-              className="border border-white/30 px-8 py-4 rounded-xl font-semibold hover:bg-white/10 transition-colors flex items-center gap-2"
+              className="border border-white/30 px-8 py-4 rounded-xl font-semibold hover:bg-white/10 transition-colors flex items-center gap-2 h-12"
             >
               <span className="emoji-bounce">💬</span> Let's Chat
             </Button>
